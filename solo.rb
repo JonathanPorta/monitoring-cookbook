@@ -1,1 +1,1 @@
-cookbook_path '/opt/jonathanporta/prometheus/cookbooks'
+cookbook_path '/opt/jonathanporta/monitoring/cookbooks'

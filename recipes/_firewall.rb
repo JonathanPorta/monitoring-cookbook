@@ -1,5 +1,5 @@
 #
-# Cookbook Name::prometheus
+# Cookbook Name::monitoring
 # Recipe::firewall
 #
 # Copyright (c) 2015 The Authors, All Rights Reserved.

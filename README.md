@@ -1,7 +1,7 @@
-# prometheus Cookbook [![Build Status](https://travis-ci.org/JonathanPorta/prometheus-cookbook.svg?branch=master)](https://travis-ci.org/JonathanPorta/prometheus-cookbook)
+# monitoring Cookbook [![Build Status](https://travis-ci.org/jonathanporta/monitoring-cookbook.svg?branch=master)](https://travis-ci.org/jonathanporta/monitoring-cookbook)
 To bootstrap a machine and install this cookbook:
 
-        $ curl https://raw.githubusercontent.com/JonathanPorta/prometheus-cookbook/master/install.sh | bash
+        $ curl https://raw.githubusercontent.com/jonathanporta/monitoring-cookbook/master/install.sh | bash
 
 To keep the machine converged:
 
