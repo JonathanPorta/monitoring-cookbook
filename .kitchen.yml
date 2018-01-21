@@ -1,0 +1,22 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_solo
+
+platforms:
+  - name: fedora-21
+  - name: fedora-22
+  - name: fedora-27
+
+suites:
+  - name: default
+    run_list:
+      - recipe[prometheus::default]
+    attributes:
+
+  - name: autochef
+    run_list:
+      - recipe[prometheus::autochef]
+    attributes:
