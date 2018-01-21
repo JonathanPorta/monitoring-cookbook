@@ -1,1 +1,1 @@
-{"run_list": ["recipe[prometheus::default]"]}
+{"run_list": ["recipe[monitoring::default]"]}

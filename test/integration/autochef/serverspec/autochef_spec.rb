@@ -1,7 +1,7 @@
 require 'spec_helper'
 
-describe 'prometheus::autochef' do
-  describe package('prometheus') do
+describe 'monitoring::autochef' do
+  describe package('monitoring') do
     it { should be_installed }
   end
 end

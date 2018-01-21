@@ -1,9 +1,9 @@
 {
-  "name": "prometheus-cookbook",
-  "version": "0.2.0",
-  "description": "prometheus Server Cookbook'",
-  "repository": "JonathanPorta/prometheus-cookbook",
-  "homepage": "https://github.com/JonathanPorta/prometheus-cookbook",
+  "name": "monitoring-cookbook",
+  "version": "0.0.1",
+  "description": "monitoring Server Cookbook'",
+  "repository": "JonathanPorta/monitoring-cookbook",
+  "homepage": "https://github.com/JonathanPorta/monitoring-cookbook",
   "author": "Jonathan Porta <jonathan@jonathanPorta.com>",
   "files": [
     "cookbooks",

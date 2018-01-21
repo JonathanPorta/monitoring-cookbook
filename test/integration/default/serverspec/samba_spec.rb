@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe 'prometheus::_samba' do
+describe 'monitoring::_samba' do
   describe user('portaj') do
     it { should exist }
 

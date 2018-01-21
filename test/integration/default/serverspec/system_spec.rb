@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe 'prometheus::_system' do
+describe 'monitoring::_system' do
   describe user('portaj') do
     it { should exist }
 
