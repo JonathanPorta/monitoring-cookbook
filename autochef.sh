@@ -9,7 +9,7 @@ echo 'Starting update of monitoring-cookbook package...'
 dnf install -y $(gh latest jonathanporta/monitoring-cookbook --download-url)
 
 echo 'Kicking off chef converge...'
-chef-solo -c /opt/jonathanporta/monitoring/solo.rb -j /opt/jonathanporta/monitoring/solo.json
+chef-solo -c /opt/jonathanporta/monitoring-cookbook/solo.rb -j /opt/jonathanporta/monitoring-cookbook/solo.json
 
 echo 'Handling the great wall of fire-d...'
-/opt/jonathanporta/monitoring/firewalld.sh
+/opt/jonathanporta/monitoring-cookbook/firewalld.sh

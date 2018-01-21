@@ -11,4 +11,4 @@ dnf install -y https://github.com/jonathanporta/ops/releases/download/0.0.4/ops-
 echo 'Starting install of jonathanporta/monitoring-cookbook package...'
 dnf install -y $(gh latest jonathanporta/monitoring-cookbook --download-url)
 
-chef-solo -c /opt/jonathanporta/monitoring/solo.rb -o "recipe[monitoring::autochef]"
+chef-solo -c /opt/jonathanporta/monitoring-cookbook/solo.rb -o "recipe[monitoring::autochef]"
